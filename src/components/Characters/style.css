@@ -1,0 +1,25 @@
+.Characters {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Characters h1 {
+  font-size: 25px;
+  font-family: monospace;
+  width: 100%;
+  margin: 10px;
+}
+
+@media (min-width: 550px) {
+  .Characters {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .Characters h1 {
+    font-size: 40px;
+    font-family: monospace;
+  }
+}
