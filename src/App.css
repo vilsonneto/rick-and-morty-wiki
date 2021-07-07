@@ -8,6 +8,10 @@ h1 {
   box-sizing: border-box;
 }
 
+button:focus {
+  outline: none;
+}
+
 .App {
   text-align: center;
 }
@@ -34,8 +38,26 @@ h1 {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-header .Nav-characters {
+  display: flex;
+  width: 100%;
+  margin: 20px 0;
+  justify-content: space-around;
+}
+
+.App-header .Nav-characters button {
+  border: solid 2px;
+  border-color: green;
+  padding: 7px 20px;
+  font-size: 21px;
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 25px;
+}
+
+.App-header .Nav-characters button:hover {
+  border-color: green;
+  background-color: green;
 }
 
 @keyframes App-logo-spin {
